@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <title>Tic-Tac-Toe</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Megrim&family=Rammetto+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <h2 class="logo">simplegames</h2>
+
+            <ul class="nav-list">
+                <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#rules" class="nav-link">Rules</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Games</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="heading">
+        <div class="headings">
+            <h2 class="game-heading">TIC-TAC-TOE</h2>
+        </div>
+    </section>
+
+    <section id="game">
+        <div class="game-container">
+            <h2 class="play"> <span class="x">x</span> plays first and <span class="o">o</span> plays after <span class="x">x</span>.</h2>
+            <!-- <button class="x-sym btn" id="1" title="Choose X"></button>
+            <button class="o-sym btn" id="2" title="Choose O"></button> -->
+        </div>
+
+        <div class="grid">
+            <h2 class="grid-heading">Click Anywhere In Compartment To Start.</h2>
+            <div class="square" id="1"></div>
+            <div class="square" id="2"></div>
+            <div class="square" id="3"></div>
+            <div class="square" id="4"></div>
+            <div class="square" id="5"></div>
+            <div class="square" id="6"></div>
+            <div class="square" id="7"></div>
+            <div class="square" id="8"></div>
+            <div class="square" id="9"></div>
+        </div>
+        
+    </section>
+
+    <section id="rules">
+        <h2 class="rule-heading">Rules</h2>
+        <ul class="rule-list">
+            <li class="rule-item">1. <span class="x">x</span> plays first and <span class="o">o</span> plays after <span class="x">x</span>.</li>
+            <li class="rule-item">2. Click on any place of your choice in 3*3 board to start the game.</li>
+            <li class="rule-item">3. If same symbol- <span class="x">x</span> / <span class="o">o</span>- appears in line- vertically / horizantally / diagonally - <span class="x">x</span> Wins / <span class="o">"</span> Wins</li>
+            <li class="rule-item">4. Refresh to start game again.</li>
+        </ul>
+    </section>
+
+    <footer id="foot">
+        <p class="footer-cpyrght">simplegames@2021</p>
+    </footer>    
+
+    <script src="index.js"></script>
+</body>
+</html>
